@@ -18,7 +18,7 @@ namespace OnlyScript
 
             while (true)
             {
-                new Unity.GameObject("Character", typeof(OnlyScript.Character));
+                new Unity.GameObject("Entity", typeof(OnlyScript.Entity));
                 yield return null;
             }
         }
